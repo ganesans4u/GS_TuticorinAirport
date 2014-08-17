@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gs.tuticorinairport"
+    android:versionCode="3"
+    android:versionName="1.2" >
+    
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+    
+	 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tuticorin"
+        android:logo="@drawable/tuticorin"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        >
+
+        <activity
+            android:name="gs.tuticorinairport.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="gs.tuticorinairport.AirportInfoMainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="gs.tuticorinairport.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gs.tuticorinairport.MainActivity" />
+        </activity>
+        <activity
+            android:name="gs.tuticorinairport.ToandfromInfoMainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="gs.tuticorinairport.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gs.tuticorinairport.MainActivity" />
+        </activity>
+        <activity
+            android:name="gs.tuticorinairport.FacilitiesInfoMainActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="gs.tuticorinairport.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gs.tuticorinairport.MainActivity" />
+        </activity>
+        <activity
+            android:name="gs.tuticorinairport.FlightInfoMainActivity"
+            android:label="@string/app_name"          
+            android:parentActivityName="gs.tuticorinairport.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="gs.tuticorinairport.MainActivity" />
+        </activity>   
+       
+    </application>
+</manifest>

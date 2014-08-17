@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tuticorin Airport</string>
+    <string name="welcometxet">Welcome to Tuticorin Airport</string>
+    <string name="action_settings">Settings</string>
+    <string name="tuticorinairport">Tuticorin Airport (TCR)</string>
+    <string name="mobileapp">Welcome to Tuticorin Airport Mobile App</string>
+	<string name="aboutairport">About Airport</string>
+ 	<string name="content">Tuticorin Airport is a domestic airport located in the southern part of Tamil Nadu, India. 
+	Airport is located in Vagaikulam at a distance of 16.9 km from the city of Tuticorin. 
+    IATA (International Air Transport Association) code for Tuticorin Airport is TCR.
+    </string>
+   
+    
+    <string name="contactinfo">Airport Road, Tuticorin,Tamil Nadu 628103 India‎</string>
+    <string name="contacttitle">Contact Information</string>
+    <string name="contactphone">Phone:+91 461 227 1863</string>
+    
+    <string name="facilities">Facilities at Airport</string>
+     <string name="terminal">Terminal</string>
+    <string name="terminalcontent">Tuticorin airport has single terminal and a gate with X-RAY baggage facility.
+    </string>
+     <string name="wheelchairtrolleys">Wheel chair and Trolleys</string>
+     <string name="wheelchair">Wheel chair facilities available in airport for physically challenged passengers at free of cost</string>
+     <string name="trolleys">Trolleys are available at free of cost</string>
+     <string name="carparking">Car parking facility</string>
+     <string name="carparkinginfo">Car parking facility is available at airport in reasonable rate.</string>
+     
+     <string name="busservices">Bus Services</string>
+     <string name="transportation">Transportation Facilities</string>
+     <string name="busconnectivity">Tuticorin airport is well connected with the city bus services and taxi services.</string>
+     <string name="abouttoandfrom">City bus stations in located about 1.5km from Tuticorin Airport.</string>
+	 <string name="trainstation">Train Station</string>
+     <string name="trainconnectivity">Tuticorin Railway station is located at distance of around 7km away from airport</string>
+          
+    <string name="arrivals">Arrivals</string>
+    <string name="departure">Departure</string>
+    <string name="status">Status</string>
+      
+     <!-- Content for Flight Information -->
+    <string name="spicejet">SpiceJet</string>
+    <string name="blore">Bangalore</string>
+    <string name="spicejet1">SpiceJet</string>
+    <string name="chennai">Chennai (MAA)</string>
+    <string name="airline">Airlines</string>
+    <string name="dest">Destination</string>
+    <string name="origin">Origin</string>
+    <string name="flight">Flight</string>
+      <string name="flightairline">Flight/Airlines</string>
+    <string name="SG3598">SG3598</string>
+    <string name="SG1084">SG1084</string>
+    <string name="arrivaltime1">8:25 AM</string>
+    <string name="arrivaltime2">3:30 PM</string>
+    
+    <string name="departuretime1">8:45 AM</string>
+    <string name="departuretime2">3:50 PM</string>
+    <string name="arrivaltime">Flight arrival and timings are subject to change.Please contact airlines or refer the airline website.</string>  
+    <string name="departuretime">Flight departure and timings are subject to change.Please contact airlines or refer the airline website.</string>  
+    <string name="liveupdate">Flight destination and timings are subject to change.Please refer the airline website or contact airlines for correct information.</string>  
+
+    <color name="list_background">#f1f1f1</color>
+    <color name="counter_text_bg">#f1f1f1</color>
+    <color name="list_background_pressed">#f1f1f1</color>
+
+</resources>

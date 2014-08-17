@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tuticorinairport"
+        android:textStyle="bold" />
+
+	 <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/mobileapp" />
+
+
+    <ImageButton
+        android:id="@+id/btnflightinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+        android:background="@drawable/flightinfo"
+        android:contentDescription="@string/app_name"
+		android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:onClick="flightInfo" />
+
+    <ImageButton
+        android:id="@+id/btntoandfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnflightinfo"
+        android:layout_alignLeft="@+id/btnflightinfo"
+        android:layout_below="@+id/btnflightinfo"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/toandfrom"
+        android:contentDescription="@string/app_name"
+        android:onClick="toandfromInfo" />
+
+    <ImageButton
+        android:id="@+id/btnfacilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btntoandfrom"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:background="@drawable/facilities"
+        android:contentDescription="@string/app_name"
+        android:onClick="facilitiesInfo" />
+
+    <ImageButton
+        android:id="@+id/btnairportinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnfacilities"
+        android:layout_alignLeft="@+id/btnfacilities"
+        android:layout_alignTop="@+id/btntoandfrom"
+        android:background="@drawable/airportinfo"
+        android:contentDescription="@string/app_name"
+        android:onClick="airportInfo" />
+
+</RelativeLayout>

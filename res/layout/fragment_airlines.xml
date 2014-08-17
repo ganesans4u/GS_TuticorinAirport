@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"  
+            android:stretchColumns="*" 
+            >
+ <!-- Row 1 with 2 columns -->  
+    <TableRow
+         android:id="@+id/tableRow1" 
+         android:layout_height="wrap_content" 
+         android:layout_width="match_parent">
+        <TextView android:id="@+id/TextView01" 
+            android:background="@drawable/cell_shape"
+            android:layout_weight="1"   
+            android:gravity="left"
+            android:padding="4dip"  
+            android:text="@string/airline" 
+            android:textColor="#ffffff" />
+          <TextView android:id="@+id/TextView02" 
+              android:background="@drawable/cell_shape"
+              android:text="@string/dest" 
+              android:layout_weight="1"  
+              android:textColor="#ffffff"  
+              android:padding="4dip"  
+              android:gravity="left"/>
+    </TableRow>
+     <!-- Row 2 with 2 columns -->
+     <TableRow
+         android:layout_height="wrap_content"
+         android:layout_width="fill_parent"
+         android:gravity="center_horizontal">
+         <TextView
+             android:id="@+id/TextView05" 
+             android:text="@string/spicejet1"
+             android:layout_weight="1"  
+             android:background="@drawable/cell_contentshape"
+             android:textColor="#000000"
+             android:padding="5dip" 
+             android:gravity="left"/>  
+         <TextView
+             android:id="@+id/TextView06" 
+             android:text="@string/chennai"
+             android:layout_weight="1" 
+             android:background="@drawable/cell_contentshape"
+             android:textColor="#000000"
+             android:padding="5dip" 
+             android:gravity="left"/>
+     </TableRow>                 
+	<TextView
+        android:id="@+id/TextView07" 
+        android:text="@string/liveupdate"
+        android:layout_weight="2" 
+        android:textColor="#000000"
+        android:padding="5dip" 
+        android:gravity="left"/>
+</TableLayout>
